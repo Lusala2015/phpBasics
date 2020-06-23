@@ -95,5 +95,16 @@ for ($i=0; $i<=$limit;$i++){
 echo "</ul>";
 
 
+//Do while loop
 
+echo "<h3>Do while loop</h3>";
+
+$number = 0;
+
+echo "<ul>";
+
+do{
+    echo "<li>$number</li>";
+    $number++;
+} while($number <= $limit);
 ?>
