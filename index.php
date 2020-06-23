@@ -5,4 +5,9 @@ $number1 = 23;
 $number2 = 45;
 $total = $number1 + $number2;
 
+echo "<h3>$message</h3>";
+echo" <p>The sum of $number1 and $number2 is $total</p>";
+
+echo' <p>The sum of ' . $number1 . 'and ' . $number2 . 'is ' . $total .'.';
+
 ?>
