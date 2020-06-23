@@ -138,5 +138,7 @@ foreach ($languages as $language => $framework){
 
 //functions in php
 
-
+function sayHi(){
+    echo "hi everyone";
+}
 ?>
