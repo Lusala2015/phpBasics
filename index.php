@@ -68,6 +68,21 @@ var_dump ($users);
 
 echo '<h3>' . $users[0]["userID"] . '</h3>' ;
 
+//loops
+//****while loop */
+
+echo '<h1>While loop</h1>';
+
+$limit = 10;
+$number = 0;
+
+echo"<ul>";
+
+while ($number <= $limit){
+echo"<li>$number</li>";
+$number ++;
+}
+echo "</ul>"
 
 
 
