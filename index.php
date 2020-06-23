@@ -47,6 +47,8 @@ $javascriptLibraries = array(
 
 var_dump($javascriptLibraries);
 
+echo '<h3>' . $javascriptLibraries["React"] . '</h3>';
+
 
 
 ?>
