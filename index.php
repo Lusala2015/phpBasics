@@ -120,6 +120,20 @@ foreach ($names as $name){
     echo "<li>$name</li>";
 }
 
+echo "<br>";
+
 echo "</ul>";
+
+// how to access values in an associative arrays 
+$languages = array(
+    "php" => "laravel",
+    "python" => "Django"
+);
+
+echo "<ul>";
+
+foreach ($languages as $language => $framework){
+    echo "<li>Framework for $language: $framework </li>";
+}
 
 ?>
