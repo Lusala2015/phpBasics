@@ -21,4 +21,7 @@ if($loggedIn == true){
     echo 'please log in';
 }
 
+
+//Arrays 
+
 ?>
