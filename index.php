@@ -32,4 +32,6 @@ echo '<br>';
 
 var_dump($javascriptLibraries);
 
+echo '<br>';
+
 ?>
