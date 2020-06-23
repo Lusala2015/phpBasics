@@ -49,6 +49,26 @@ var_dump($javascriptLibraries);
 
 echo '<h3>' . $javascriptLibraries["React"] . '</h3>';
 
+echo '<h3>' . $javascriptLibraries["Vue"] . '</h3>';
+
+//multi-dimensional array
+
+$users = array(
+    array(
+        "userID" => "User1",
+        "password" => "1234"
+    ),
+    array(
+        "userID" => "User2",
+        "password" => "4321"
+    )
+);
+
+var_dump ($users);
+
+echo '<h3>' . $users[0]["userID"] . '</h3>' ;
+
+
 
 
 ?>
