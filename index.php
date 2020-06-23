@@ -10,4 +10,15 @@ echo" <p>The sum of $number1 and $number2 is $total</p>";
 
 echo' <p>The sum of ' . $number1 . 'and ' . $number2 . 'is ' . $total .'.';
 
+
+//conditional steps in php
+
+$loggedIn = false;
+
+if($loggedIn == true){
+    echo'Welcome';
+}else {
+    echo 'please log in';
+}
+
 ?>
