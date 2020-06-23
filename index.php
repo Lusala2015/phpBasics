@@ -12,7 +12,7 @@ echo' <p>The sum of ' . $number1 . 'and ' . $number2 . 'is ' . $total .'.';
 
 
 //conditional steps in php
-
+echo '<br>';
 $loggedIn = false;
 
 if($loggedIn == true){
@@ -23,8 +23,11 @@ if($loggedIn == true){
 
 
 //Arrays 
+echo '<br>';
 $javascriptLibraries = array("React","Angular","Vue");
 
 print_r($javascriptLibraries);
+
+echo '<br>';
 
 ?>
