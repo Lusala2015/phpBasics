@@ -86,6 +86,13 @@ echo "</ul>";
 
 echo "<h2>For loops</h2>";
 
+echo "<ul>";
+
+for ($i=0; $i<=$limit;$i++){
+    echo " <li> $i </li>";
+}
+
+echo "</ul>";
 
 
 
