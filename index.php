@@ -136,9 +136,12 @@ foreach ($languages as $language => $framework){
     echo "<li>Framework for $language: $framework </li>";
 }
 
+echo "<br>";
 //functions in php
 
 function sayHi(){
-    echo "hi everyone";
+    echo "<h1>hi everyone</h1>";
 }
+
+sayHi ();
 ?>
