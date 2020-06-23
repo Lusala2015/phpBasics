@@ -23,5 +23,8 @@ if($loggedIn == true){
 
 
 //Arrays 
+$javascriptLibraries = array("React","Angular","Vue");
+
+print_r($javascriptLibraries);
 
 ?>
