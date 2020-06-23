@@ -107,4 +107,19 @@ do{
     echo "<li>$number</li>";
     $number++;
 } while($number <= $limit);
+
+//for each loop
+
+echo "<h4>For each loops</h4>";
+
+$names = array("mark","jane","wim");
+
+echo "<ul>";
+
+foreach ($names as $name){
+    echo "<li>$name</li>";
+}
+
+echo "</ul>";
+
 ?>
