@@ -38,4 +38,15 @@ echo "<h3>$javascriptLibraries[1]</h3>";
 
 echo'<hr>';
 
+//Associative arrray
+$javascriptLibraries = array(
+    "React" => "facebook",
+    "Angular" => "Google",
+    "Vue" => " Evan You"
+);
+
+var_dump($javascriptLibraries);
+
+
+
 ?>
