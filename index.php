@@ -82,7 +82,10 @@ while ($number <= $limit){
 echo"<li>$number</li>";
 $number ++;
 }
-echo "</ul>"
+echo "</ul>";
+
+echo "<h2>For loops</h2>";
+
 
 
 
