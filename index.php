@@ -149,4 +149,15 @@ function add($num1,$num2){
     return $num1 + $num2;
 }
 echo '<h4>The sum of 20 and 30 is '. add(20, 30). '. </h4>';
+
+//getting data from forms 
+
+
 ?>
+
+<form action="dashboard.php" method = "post">
+    <input type = " text " name = "userid">
+    <input type="password" name = " password">
+    <input type="submit" value = " Log in">
+</form>
+
