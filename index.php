@@ -35,4 +35,7 @@ var_dump($javascriptLibraries);
 echo '<br>';
 
 echo "<h3>$javascriptLibraries[1]</h3>"; 
+
+echo'<hr>';
+
 ?>
