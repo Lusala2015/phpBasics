@@ -148,5 +148,5 @@ sayHi ();
 function add($num1,$num2){
     return $num1 + $num2;
 }
-
+echo '<h4>The sum of 20 and 30 is '. add(20, 30). '. </h4>';
 ?>
