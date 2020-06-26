@@ -160,5 +160,7 @@
     <input type="submit" value = "Log in">
 </form> -->
 
-<?php include "header.php";
+<?php include "header.php";?>
 <h4 class="page1">Page 1</h4>
+<?php include "footer.php";?>
+
