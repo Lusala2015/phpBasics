@@ -1,5 +1,5 @@
 <footer>
-<p>This clas is created with love </p>
+<p>This website is created with a lot of love </p>
 </footer> 
 </body>
 </html>
