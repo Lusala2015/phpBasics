@@ -151,6 +151,7 @@
 // echo '<h4>The sum of 20 and 30 is '. add(20, 30). '. </h4>';
 
 // //getting data from forms 
+
 ?> 
 
 <!-- <form action="dashboard.php" method = "post">
@@ -159,5 +160,5 @@
     <input type="submit" value = "Log in">
 </form> -->
 
-
-
+<?php include "header.php";
+<h4 class="page1">Page 1</h4>
